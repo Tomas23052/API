@@ -25,7 +25,7 @@ const options: cors.CorsOptions = {
     ],
     credentials: true,
     methods: 'GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE',
-    origin: "*",
+    origin: "mysql://${{ root }}:${{ fwJj8hxJjjF6sGaTTQBX }}@${{ fwJj8hxJjjF6sGaTTQBX }}:${{ 7630 }}/${{ railway }}",
     preflightContinue: false,
   };
   
