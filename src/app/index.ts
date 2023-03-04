@@ -44,3 +44,7 @@ route(app);
 app.listen(PORT, ()=> {
     console.log(`API está a correr na porta ${PORT}`);
 })
+
+process.on('uncaughtException', function (err) {
+    console.log(err);
+});
