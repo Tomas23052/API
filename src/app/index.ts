@@ -8,8 +8,8 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 
-//bora
-const { PORT } = process.env;
+
+const PORT = process.env.PORT || 8081;
 route(app);
 
 
