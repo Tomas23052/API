@@ -21,10 +21,10 @@ class BlogControllers{
             codes.ok(),
             messages.ok(),
             {
-                count: response [1],
-                data: response[0],
+              count: response [1],
+              data: response[0],
             },
-            res
+          res
         );
     };
 
